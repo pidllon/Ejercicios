@@ -27,9 +27,9 @@ namespace ejercicios_1
             //ejercicio 5
             float precio, cantidad, importe;
             Console.WriteLine("introduzca el precio del producto: ");
-            precio = float.Parse (Console.ReadLine());
+            precio = float.Parse(Console.ReadLine());
             Console.WriteLine("introduzca la cantidad del producto: ");
-            cantidad = float.Parse (Console.ReadLine());
+            cantidad = float.Parse(Console.ReadLine());
             importe = cantidad * precio;
             Console.WriteLine("El precio del producto es " + precio + " euros y la cantidad que compra es " + cantidad + " por lo tanto debe pagar " + importe + " euros. Vuelva pronto.");
             Console.ReadLine();
@@ -37,16 +37,16 @@ namespace ejercicios_1
             //ejercicio 6
             float num1, num2, suma, resta, multiplicación;
             Console.WriteLine("introduzca el primer número: ");
-            num1 = float.Parse (Console.ReadLine());
+            num1 = float.Parse(Console.ReadLine());
             Console.WriteLine("introduzca el segundo número: ");
-            num2 = float.Parse (Console.ReadLine());
+            num2 = float.Parse(Console.ReadLine());
             suma = num1 + num2;
             resta = num1 - num2;
             multiplicación = num1 * num2;
             Console.WriteLine("suma: " + suma);
             Console.WriteLine("resta: " + resta);
             Console.WriteLine("multiplicación: " + multiplicación);
-            Console.ReadLine ();
+            Console.ReadLine();
 
             //ejercicio 7
             float celsius, farenjin;
@@ -96,18 +96,10 @@ namespace ejercicios_1
             object x, y;
             x = "paco";
             y = 33;
-            Console.WriteLine("x es " + x + " e y es " + y);
-            Console.WriteLine("si quieres cambiar sus valores pulsa enter si no pulsa la x de la consola");
-            Console.ReadLine();
-            Console.WriteLine("introduzca a continuación el nuevo valor de x: ");
-            x = Console.ReadLine();
-            Console.WriteLine("ahora introduzca el nuevo valor de y: ");
-            y = Console.ReadLine();
-            Console.WriteLine("los nuevos valores son x = " + x + ", y = " + y);
-            Console.ReadLine();
+
 
             //ejercicio 10
-            
+
             float horas, tasa, salarioBruto, irpf, salarioNeto;
             Console.WriteLine("introduzca horas trabajadas: ");
             horas = float.Parse(Console.ReadLine());
@@ -120,6 +112,21 @@ namespace ejercicios_1
             Console.WriteLine("salario bruto: " + salarioBruto);
             Console.WriteLine("salario neto: " + salarioNeto);
             Console.ReadLine();
+
+            //ejercicio 11
+            double espacio, tiempo, velocidad;
+            Console.WriteLine("Introduzca la distancia en metros:");
+            espacio = double.Parse(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("Introduzca el tiempo en segundos:");
+            tiempo = double.Parse(Console.ReadLine());
+            Console.Clear();
+            velocidad = espacio / tiempo;
+            Console.WriteLine("La velocidad es de " + velocidad + " metros/segundo.");
+            Console.ReadLine();
+
+            //ejercicio 12
+            //h
 
         }
     }
