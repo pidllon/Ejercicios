@@ -69,18 +69,6 @@ namespace ejercicios_1
             Console.WriteLine("Con un volumen de " + v + " litros, y una temperatura de " + t + " Kelvin, " + n + " moles de un gas ideal tienen una presión de " + p + " atmósferas.");
             Console.ReadLine();
 
-            //ejercicio extra 
-            //calculadora de area del triangulo
-            float basee, altura, resultado;
-            Console.WriteLine("Bienvenido a la calculadora del area de un triangulo.");
-            Console.WriteLine("introduzca la base: ");
-            basee = float.Parse(Console.ReadLine());
-            Console.WriteLine("introduzca la altura: ");
-            altura = float.Parse(Console.ReadLine());
-            resultado = (basee * altura) / 2;
-            Console.WriteLine("el resultado es: " + resultado + "cm cuadrados");
-            Console.ReadLine();
-
             //calculadora de porcentajes
             float precio1, porcentaje, resultado1;
             Console.WriteLine("Bienveido a la calculadora de porcentajes.");
@@ -126,7 +114,30 @@ namespace ejercicios_1
             Console.ReadLine();
 
             //ejercicio 12
-            //h
+            double lado, area1, perimetro, diagonal;
+            Console.WriteLine("introduzca la longitud del lado en cm:");
+            lado = double.Parse(Console.ReadLine());
+            Console.Clear();
+            area1 = Math.Pow(lado, 2);
+            diagonal = lado * Math.Sqrt(2);
+            perimetro = lado * 4;
+            Console.WriteLine("área: " + area1 + "cm cuadrados.");
+            Console.WriteLine("diagonal: " + diagonal + "cm.");
+            Console.WriteLine("perímetro: " + perimetro + "cm.");
+            Console.ReadLine();
+
+            //ejercicio 13
+            float catetoA, catetoB, hipotenusa;
+            Console.WriteLine("Introduzca el cateto A:");
+            catetoA = float.Parse(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("Introduzca el cateto B:");
+            catetoB = float.Parse(Console.ReadLine());
+            Console.Clear();
+            hipotenusa = (float)(Math.Sqrt((Math.Pow(catetoA, 2)) + (Math.Pow(catetoB, 2))));
+            Console.WriteLine("La hipotenusa es: " + hipotenusa);
+            Console.ReadLine();
+
 
         }
     }

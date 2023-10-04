@@ -6,3 +6,10 @@ C:\Users\Alumno\source\repos\ejercicios_1\ejercicios_1\obj\Debug\ejercicios_1.cs
 C:\Users\Alumno\source\repos\ejercicios_1\ejercicios_1\obj\Debug\ejercicios_1.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\ejercicios_1\ejercicios_1\obj\Debug\ejercicios_1.exe
 C:\Users\Alumno\source\repos\ejercicios_1\ejercicios_1\obj\Debug\ejercicios_1.pdb
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_1\ejercicios_1\bin\Debug\ejercicios_1.exe.config
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_1\ejercicios_1\bin\Debug\ejercicios_1.exe
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_1\ejercicios_1\bin\Debug\ejercicios_1.pdb
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_1\ejercicios_1\obj\Debug\ejercicios_1.csproj.AssemblyReference.cache
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_1\ejercicios_1\obj\Debug\ejercicios_1.csproj.CoreCompileInputs.cache
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_1\ejercicios_1\obj\Debug\ejercicios_1.exe
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_1\ejercicios_1\obj\Debug\ejercicios_1.pdb
