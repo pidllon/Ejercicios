@@ -69,17 +69,6 @@ namespace ejercicios_1
             Console.WriteLine("Con un volumen de " + v + " litros, y una temperatura de " + t + " Kelvin, " + n + " moles de un gas ideal tienen una presión de " + p + " atmósferas.");
             Console.ReadLine();
 
-            //calculadora de porcentajes
-            float precio1, porcentaje, resultado1;
-            Console.WriteLine("Bienveido a la calculadora de porcentajes.");
-            Console.WriteLine("introduzca el numero al que deseas saber un porcentaje: ");
-            precio1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("introduzca el porcentaje en decimales, ejemplo: 15% = 0,15.");
-            porcentaje = float.Parse(Console.ReadLine());
-            resultado1 = precio1 * porcentaje;
-            Console.WriteLine("El resultado es: " + resultado1);
-            Console.ReadLine();
-
             //ejercicio 9
             object x, y;
             x = "paco";
@@ -136,6 +125,30 @@ namespace ejercicios_1
             Console.Clear();
             hipotenusa = (float)(Math.Sqrt((Math.Pow(catetoA, 2)) + (Math.Pow(catetoB, 2))));
             Console.WriteLine("La hipotenusa es: " + hipotenusa);
+            Console.ReadLine();
+
+            //ejercicio 14
+            float porcentaje, precioIni, cant, preciofin;
+            Console.WriteLine("Introduzca el precio inicial que quieras aplicar el descuento:");
+            precioIni = float.Parse(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("Introduzca el porcentaje que quieres descontar en decimales(15%=0,15):");
+            porcentaje = float.Parse(Console.ReadLine());
+            Console.Clear();
+            cant = precioIni * porcentaje;
+            preciofin = precioIni - cant;
+            Console.WriteLine($"Al aplicar un {porcentaje} por ciento de descuento el precio final del producto es de {preciofin} y por lo tanto se ahorra {cant} euros.");
+            Console.ReadLine();
+
+            //ejercicio 15
+            double a, D, AL, V;
+            Console.WriteLine("Introduzca la longitud del lado a en cm:");
+            a = float.Parse(Console.ReadLine());
+            Console.Clear();
+            D = (Math.Sqrt(3)) * a;
+            AL = 4 * (Math.Pow(a, 2));
+            V = Math.Pow(a, 3);
+            Console.WriteLine($"D es {D}, AL es {AL}, V es {V}.");
             Console.ReadLine();
 
 
