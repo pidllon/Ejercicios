@@ -79,6 +79,13 @@ namespace ejercicios_2
             else if(temperatura > 500) { Console.WriteLine("bajar temperatura"); }
             else { Console.WriteLine("Todo en orden"); }
             Console.ReadLine();
+
+            //ejercicio 9
+            double numer1;
+            Console.WriteLine("introduzca un número:");
+            numer1 = double.Parse(Console.ReadLine());
+            Console.Clear();
+            if((numer1 % 2 == 0) || (numer1 % 3 == 0)) { Console.WriteLine("El número es multiplo de 3 y/o de 2"); }
         }
     }
 }
