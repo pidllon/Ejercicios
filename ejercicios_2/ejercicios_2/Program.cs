@@ -10,7 +10,7 @@ namespace ejercicios_2
     {
         static void Main(string[] args)
         {
-            //programa que a partir del salario bruto de un trabajador aplica un irpf del 15% di el salario 
+            /*//programa que a partir del salario bruto de un trabajador aplica un irpf del 15% di el salario 
             // <= 1200€ y un irpf del 19 % si es superior
             float salarioBruto, irpf15, irpf19, salarioNeto;
             Console.WriteLine("introduzca el salario bruto:");
@@ -27,8 +27,28 @@ namespace ejercicios_2
                 salarioNeto = salarioBruto - irpf19;
             }
             Console.WriteLine("salario neto es " + salarioNeto);
-            Console.ReadLine();
+            Console.ReadLine();*/
 
+
+            Console.WriteLine("introduzca el numero");
+            float numero = float.Parse(Console.ReadLine());
+            if ((numero % 3 == 0) && (numero % 5 == 0))
+            {
+                Console.WriteLine("es multiplo de 3 y de 5");
+            }
+            else if (numero % 5 == 0)
+            {
+                Console.WriteLine("es multiplo de 5");
+            }
+            else if (numero % 3 == 0)
+            {
+                Console.WriteLine("es multiplo de 3");
+            }
+            else
+            {
+                Console.WriteLine("no es multiplo de 3 ni de 5");
+            }
+            Console.ReadLine();
         }
     }
 }
