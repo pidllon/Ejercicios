@@ -197,6 +197,7 @@ namespace ejercicios_2
                 else
                 {
                     Console.WriteLine("error en nota");
+                    Console.ReadLine();
                 }
             }
 
@@ -229,7 +230,143 @@ namespace ejercicios_2
                 }
             }
 
-            
+
+            if (numEj == 13)
+            {//ejercicio 13
+                float temp;
+                Console.WriteLine("Introduzca la temperatura:");
+                temp = float.Parse(Console.ReadLine());
+                Console.Clear();
+                if (temp < 0)
+                {
+                    Console.WriteLine("SÓLIDO");
+                    Console.ReadLine();
+                }
+                else if ((temp >= 0) && (temp <= 100))
+                {
+                    Console.WriteLine("LÍQUIDO");
+                    Console.ReadLine();
+                }
+                else if ((temp > 100) && (temp <= 1000000))
+                {
+                    Console.WriteLine("VAPOR");
+                    Console.ReadLine();
+                }
+                else if (temp > 1000000)
+                {
+                    Console.WriteLine("PLASMA");
+                    Console.ReadLine();
+                }
+            }
+
+            if (numEj == 14)
+            {//ejercicio 14
+                string letra;
+                double numero1, numero2;
+                Console.WriteLine("Elija una de las opciones escribiendo la tecla correspondiente a cada una:");
+                Console.WriteLine("a - sumar");
+                Console.WriteLine("b - restar");
+                Console.WriteLine("c - multiplicar");
+                Console.WriteLine("d - dividir");
+                Console.WriteLine("e - raiz de la suma");
+                letra = Console.ReadLine();
+                if (letra == "a")
+                {
+                    Console.Clear();
+                    Console.WriteLine("SUMA");
+                    Console.WriteLine("Introduzca el primer número:");
+                    numero1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduzca el segundo número:");
+                    numero2 = double.Parse(Console.ReadLine());
+                    Console.Clear();
+                    Console.WriteLine($"la suma de {numero1} + {numero2} es igual a {numero1 + numero2}.");
+                    Console.ReadLine();
+
+                }
+                if (letra == "b")
+                {
+                    Console.Clear();
+                    Console.WriteLine("RESTA");
+                    Console.WriteLine("Introduzca el primer número:");
+                    numero1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduzca el segundo número:");
+                    numero2 = double.Parse(Console.ReadLine());
+                    Console.Clear();
+                    Console.WriteLine($"la resta de {numero1} - {numero2} es igual a {numero1 - numero2}.");
+                    Console.ReadLine();
+                }
+                if (letra == "c")
+                {
+                    Console.Clear();
+                    Console.WriteLine("MULTIPLICAR");
+                    Console.WriteLine("Introduzca el primer número:");
+                    numero1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduzca el segundo número:");
+                    numero2 = double.Parse(Console.ReadLine());
+                    Console.Clear();
+                    Console.WriteLine($"la multiplicación de {numero1} x {numero2} es igual a {numero1 * numero2}.");
+                    Console.ReadLine();
+                }
+                if (letra == "d")
+                {
+                    Console.Clear();
+                    Console.WriteLine("DIVISIÓN");
+                    Console.WriteLine("Introduzca el primer número:");
+                    numero1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduzca el segundo número:");
+                    numero2 = double.Parse(Console.ReadLine());
+                    Console.Clear();
+                    Console.WriteLine($"la división de {numero1} / {numero2} es igual a {numero1 / numero2}.");
+                    Console.ReadLine();
+                }
+                
+                if (letra == "e")
+                {
+                    Console.Clear();
+                    Console.WriteLine("RAÍZ DE LA SUMA");
+                    Console.WriteLine("Introduzca el primer número:");
+                    numero1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduzca el segundo número:");
+                    numero2 = double.Parse(Console.ReadLine());
+                    Console.Clear();
+                    Console.WriteLine($"La raíz cuadrada de la suma de estos dos números es: {Math.Sqrt(numero1 + numero2)}");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("That command doesn´t exist.");
+                }
+            }
+
+            //ejercicio 15
+            float numLitros;
+            Console.WriteLine("Introduzca el número de litros");
+            numLitros = float.Parse(Console.ReadLine());
+            Console.Clear();
+            if(numLitros <= 50)
+            {
+                Console.WriteLine("Estas de suerte los primeros 50 litro son gratis, asi que no tienes que pagar nada!");
+                Console.ReadLine();
+            }
+            else if((numLitros > 50) && (numLitros <= 200))
+            {
+                Console.WriteLine("pago con tarifa de 4,75 euros.");
+                Console.ReadLine();
+                float pago = (numLitros - 50) * 4.75f;
+                if (pago > 45)
+                {
+                    Console.WriteLine($"Tiene que pagar {pago} euros.");
+                    Console.ReadLine();
+                }
+                else if(pago <= 45)
+                {
+                    Console.WriteLine("Tiene que pagar 45 euros.");
+                }
+            }
+            else if(numLitros > 200)
+            {
+                Console.WriteLine("pago con tarifa de 20 euros y por debajo de los 200 con tarifa de 4.75 euros.");
+            }
         }
     }
 }
