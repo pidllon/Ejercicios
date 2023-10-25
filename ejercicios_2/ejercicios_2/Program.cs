@@ -283,7 +283,7 @@ namespace ejercicios_2
                     Console.ReadLine();
 
                 }
-                if (letra == "b")
+                else if (letra == "b")
                 {
                     Console.Clear();
                     Console.WriteLine("RESTA");
@@ -295,7 +295,7 @@ namespace ejercicios_2
                     Console.WriteLine($"la resta de {numero1} - {numero2} es igual a {numero1 - numero2}.");
                     Console.ReadLine();
                 }
-                if (letra == "c")
+                else if (letra == "c")
                 {
                     Console.Clear();
                     Console.WriteLine("MULTIPLICAR");
@@ -307,7 +307,7 @@ namespace ejercicios_2
                     Console.WriteLine($"la multiplicación de {numero1} x {numero2} es igual a {numero1 * numero2}.");
                     Console.ReadLine();
                 }
-                if (letra == "d")
+                else if (letra == "d")
                 {
                     Console.Clear();
                     Console.WriteLine("DIVISIÓN");
@@ -320,7 +320,7 @@ namespace ejercicios_2
                     Console.ReadLine();
                 }
                 
-                if (letra == "e")
+                else if (letra == "e")
                 {
                     Console.Clear();
                     Console.WriteLine("RAÍZ DE LA SUMA");
@@ -366,6 +366,8 @@ namespace ejercicios_2
             else if(numLitros > 200)
             {
                 Console.WriteLine("pago con tarifa de 20 euros y por debajo de los 200 con tarifa de 4.75 euros.");
+                Console.ReadLine();
+                float pago = (numLitros - 200) * 20 + (150 * 4.75f);
             }
         }
     }
