@@ -359,11 +359,11 @@ namespace ejercicios_2
                 else if ((numLitros > 50) && (numLitros <= 200))
                 {
                     Console.WriteLine("pago con tarifa de 4,75 euros.");
-                    Console.ReadLine();
                     float pago = (numLitros - 50) * 4.75f;
-                    if(pago <= 45)
+                    if (pago <= 45)
                     {
                         Console.WriteLine("Tiene que pagar 45 euros.");
+                        Console.ReadLine();
                     }
                     else if (pago > 45)
                     {
@@ -385,8 +385,61 @@ namespace ejercicios_2
                 }
             }
 
-            //ejercicio 16
 
+            else if (numEj == 16)
+            {//ejercicio 16
+                float precio1, precio2, precio3, sumaP;
+                Console.WriteLine("Introduzca el primer precio:");
+                precio1 = float.Parse(Console.ReadLine());
+                Console.Clear();
+                Console.WriteLine("Introduzca el segundo precio:");
+                precio2 = float.Parse(Console.ReadLine());
+                Console.Clear();
+                Console.WriteLine("Introduzca el tercer precio:");
+                precio3 = float.Parse(Console.ReadLine());
+                Console.Clear();
+                sumaP = precio1 + precio2 + precio3;
+                Console.WriteLine($"Total sin descuento:                  {sumaP} euros.");
+                Console.WriteLine("-----------------------------------------------------");
+                if (sumaP < 500.00f)
+                {
+                    Console.WriteLine($"Precio con descuento del 0%          {sumaP} euros.");
+                    Console.ReadLine();
+                }
+                else if ((sumaP >= 500.00f) && (sumaP <= 1000.00f))
+                {
+                    float descuento = sumaP * 0.03f;
+                    Console.WriteLine($"Precio con descuento del 3%           {(sumaP - descuento)} euros.");
+                    Console.ReadLine();
+                }
+                else if ((sumaP > 1000.00f) && (sumaP < 2000.00f))
+                {
+                    float descuento = sumaP * 0.05f;
+                    Console.WriteLine($"Precio con descuento del 5%           {(sumaP - descuento)} euros.");
+                    Console.ReadLine();
+                }
+                else if ((sumaP >= 2000.00f) && (sumaP <= 3000.00f))
+                {
+                    float descuento = sumaP * 0.07f;
+                    Console.WriteLine($"Precio con descuento del 7%           {(sumaP - descuento)} euros.");
+                    Console.ReadLine();
+                }
+                else if (sumaP > 3000.00f)
+                {
+                    float descuento = sumaP * 0.10f;
+                    Console.WriteLine($"Precio con descuento del 10%           {(sumaP - descuento)} euros.");
+                    Console.ReadLine();
+                }
+            }
+
+            //ejercicio 17
+            float horasSemanales, tasaHora;
+            Console.WriteLine("Introduzca las horas semanales trabajadas por el trabajador:");
+            horasSemanales = float.Parse(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("Introuzca la tasa a a la que se paga la hora trabajada:");
+            tasaHora = float.Parse(Console.ReadLine());
+            Console.Clear();
         }
     }
 }
