@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
@@ -39,9 +40,10 @@ namespace ejercicios_2
                 {
                     Console.WriteLine("Alumno suspenso");
                 }
-                Console.ReadLine(); }
+                Console.ReadLine();
+            }
 
-            if (numEj == 5)
+            else if (numEj == 5)
             {//ejercicio 5
                 double num1, num2, suma;
                 Console.WriteLine("introduzca el primer número real:");
@@ -59,10 +61,11 @@ namespace ejercicios_2
                 {
                     Console.WriteLine("no se puede hacer la raíz.");
                 }
-                Console.ReadLine(); }
+                Console.ReadLine();
+            }
 
 
-            if (numEj == 6)
+            else if (numEj == 6)
             {//ejercicio 6
                 string contraseña1, contraseña2;
                 contraseña1 = "pepe";
@@ -77,10 +80,11 @@ namespace ejercicios_2
                 {
                     Console.WriteLine("contraseña incorrecta.");
                 }
-                Console.ReadLine(); }
+                Console.ReadLine();
+            }
 
 
-            if (numEj == 7)
+            else if (numEj == 7)
             {//ejercicio 7
                 double nume1, nume2;
                 Console.WriteLine("a continuación se calculara con el número más grande elevado al número más pequeño");
@@ -100,10 +104,11 @@ namespace ejercicios_2
                 {
                     Console.WriteLine(Math.Pow(nume2, nume1));
                 }
-                Console.ReadLine(); }
+                Console.ReadLine();
+            }
 
 
-            if (numEj == 8)
+            else if (numEj == 8)
             {//ejercicio 8
                 double presion, temperatura;
                 Console.WriteLine("introduzca la presion en atmósferas:");
@@ -128,10 +133,11 @@ namespace ejercicios_2
                 {
                     Console.WriteLine("Todo en orden");
                 }
-                Console.ReadLine(); }
+                Console.ReadLine();
+            }
 
 
-            if (numEj == 9)
+            else if (numEj == 9)
             {//ejercicio 9
                 double numer1;
                 Console.WriteLine("introduzca un número:");
@@ -149,7 +155,7 @@ namespace ejercicios_2
             }
 
 
-            if (numEj == 10)
+            else if (numEj == 10)
             {//ejercicio 10
                 float precio, reb1, reb2;
                 Console.WriteLine("Introduzca el precio del producto:");
@@ -168,7 +174,7 @@ namespace ejercicios_2
                     Console.ReadLine();
                 }
             }
-            if (numEj == 11)
+            else if (numEj == 11)
             {//ejercicio 11
                 float nota;
                 Console.WriteLine("Introduzca la nota: ");
@@ -202,18 +208,18 @@ namespace ejercicios_2
             }
 
 
-            if (numEj == 12)
+            else if (numEj == 12)
             {//ejercicio 12
                 float numero;
                 Console.WriteLine("Introduzca el número:");
                 numero = float.Parse(Console.ReadLine());
                 Console.Clear();
-                if((numero % 4 == 0) && (numero % 5 == 0))
+                if ((numero % 4 == 0) && (numero % 5 == 0))
                 {
                     Console.WriteLine($"el número es multiplo de 5 y de 4 asi que primero hacemos la suma de 25: {numero + 25} Y ahora hacemos la suma pero con 50: {numero + 50}");
                     Console.ReadLine();
                 }
-                else if(numero % 4 == 0)
+                else if (numero % 4 == 0)
                 {
                     Console.WriteLine($"el número es multiplo de 4, por lo que le sumamos 25: {numero + 25}");
                     Console.ReadLine();
@@ -231,7 +237,7 @@ namespace ejercicios_2
             }
 
 
-            if (numEj == 13)
+            else if (numEj == 13)
             {//ejercicio 13
                 float temp;
                 Console.WriteLine("Introduzca la temperatura:");
@@ -259,7 +265,7 @@ namespace ejercicios_2
                 }
             }
 
-            if (numEj == 14)
+            else if (numEj == 14)
             {//ejercicio 14
                 string letra;
                 double numero1, numero2;
@@ -319,7 +325,7 @@ namespace ejercicios_2
                     Console.WriteLine($"la división de {numero1} / {numero2} es igual a {numero1 / numero2}.");
                     Console.ReadLine();
                 }
-                
+
                 else if (letra == "e")
                 {
                     Console.Clear();
@@ -338,37 +344,49 @@ namespace ejercicios_2
                 }
             }
 
-            //ejercicio 15
-            float numLitros;
-            Console.WriteLine("Introduzca el número de litros");
-            numLitros = float.Parse(Console.ReadLine());
-            Console.Clear();
-            if(numLitros <= 50)
-            {
-                Console.WriteLine("Estas de suerte los primeros 50 litro son gratis, asi que no tienes que pagar nada!");
-                Console.ReadLine();
-            }
-            else if((numLitros > 50) && (numLitros <= 200))
-            {
-                Console.WriteLine("pago con tarifa de 4,75 euros.");
-                Console.ReadLine();
-                float pago = (numLitros - 50) * 4.75f;
-                if (pago > 45)
+
+            else if (numEj == 15)
+            {//ejercicio 15
+                float numLitros;
+                Console.WriteLine("Introduzca el número de litros");
+                numLitros = float.Parse(Console.ReadLine());
+                Console.Clear();
+                if (numLitros <= 50)
                 {
-                    Console.WriteLine($"Tiene que pagar {pago} euros.");
+                    Console.WriteLine("Estas de suerte los primeros 50 litro son gratis, asi que no tienes que pagar nada!");
                     Console.ReadLine();
                 }
-                else if(pago <= 45)
+                else if ((numLitros > 50) && (numLitros <= 200))
                 {
-                    Console.WriteLine("Tiene que pagar 45 euros.");
+                    Console.WriteLine("pago con tarifa de 4,75 euros.");
+                    Console.ReadLine();
+                    float pago = (numLitros - 50) * 4.75f;
+                    if(pago <= 45)
+                    {
+                        Console.WriteLine("Tiene que pagar 45 euros.");
+                    }
+                    else if (pago > 45)
+                    {
+                        Console.WriteLine($"Tiene que pagar {pago} euros.");
+                        Console.ReadLine();
+                    }
+                }
+                else if (numLitros > 200)
+                {
+                    float pago = (numLitros - 200) * 20 + (150 * 4.75f);
+                    Console.WriteLine("Pago con tarifa de 20 euros y por debajo de los 200 con tarifa de 4.75 euros.");
+                    Console.WriteLine($"Tienes que pagar {pago} euros.");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("ERROR");
+                    Console.ReadLine();
                 }
             }
-            else if(numLitros > 200)
-            {
-                Console.WriteLine("pago con tarifa de 20 euros y por debajo de los 200 con tarifa de 4.75 euros.");
-                Console.ReadLine();
-                float pago = (numLitros - 200) * 20 + (150 * 4.75f);
-            }
+
+            //ejercicio 16
+
         }
     }
 }
