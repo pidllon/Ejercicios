@@ -5,6 +5,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace ejercicios_2
 {
@@ -432,14 +433,57 @@ namespace ejercicios_2
                 }
             }
 
-            //ejercicio 17
-            float horasSemanales, tasaHora;
-            Console.WriteLine("Introduzca las horas semanales trabajadas por el trabajador:");
-            horasSemanales = float.Parse(Console.ReadLine());
+
+            else if (numEj == 17)
+            {//ejercicio 17
+                float horasSemanales, tasaHora, salarioBruto, salarioNeto;
+                Console.WriteLine("Introduzca las horas semanales trabajadas por el trabajador:");
+                horasSemanales = float.Parse(Console.ReadLine());
+                Console.Clear();
+                Console.WriteLine("Introuzca la tasa a a la que se paga la hora trabajada:");
+                tasaHora = float.Parse(Console.ReadLine());
+                Console.Clear();
+                if (horasSemanales <= 38)
+                {
+                    salarioBruto = horasSemanales * tasaHora;
+                    Console.Write($"El salario Bruto es: {salarioBruto}.");
+                    if (salarioBruto <= 300)
+                    {
+                        Console.WriteLine($" El salario neto es: {salarioBruto}");
+                        Console.ReadLine();
+                    }
+                    else if (salarioBruto > 300)
+                    {
+                        salarioNeto = salarioBruto - (salarioBruto * 0.10f);
+                        Console.WriteLine($"El salario neto es: {salarioNeto}");
+                        Console.ReadLine();
+                    }
+                }
+                else if (horasSemanales > 38)
+                {
+                    float tasaSuper = tasaHora + (tasaHora * 0.50f);
+                    salarioBruto = (horasSemanales - 38) * tasaSuper + (tasaHora * 38);
+                    Console.WriteLine($"El salario bruto es: {salarioBruto}.");
+                    if (salarioBruto <= 300)
+                    {
+                        Console.WriteLine($"El salario neto es: {salarioBruto}");
+                        Console.ReadLine();
+                    }
+                    else if (salarioBruto > 300)
+                    {
+                        salarioNeto = salarioBruto - (salarioBruto * 0.10f);
+                        Console.WriteLine($"El salario neto es: {salarioNeto}");
+                        Console.ReadLine();
+                    }
+                }
+            }
+
+            //ejercicio 18
+            int indicador;
+            Console.WriteLine("Introduzca el indicador:");
+            indicador = int.Parse(Console.ReadLine());
             Console.Clear();
-            Console.WriteLine("Introuzca la tasa a a la que se paga la hora trabajada:");
-            tasaHora = float.Parse(Console.ReadLine());
-            Console.Clear();
+            switch 
         }
     }
 }
