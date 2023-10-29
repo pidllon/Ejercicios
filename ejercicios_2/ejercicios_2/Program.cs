@@ -478,12 +478,74 @@ namespace ejercicios_2
                 }
             }
 
-            //ejercicio 18
-            int indicador;
-            Console.WriteLine("Introduzca el indicador:");
-            indicador = int.Parse(Console.ReadLine());
-            Console.Clear();
-            switch 
+
+            else if (numEj == 18)
+            {//ejercicio 18
+                int indicador;
+                Console.WriteLine("Introduzca el indicador:");
+                indicador = int.Parse(Console.ReadLine());
+                Console.Clear();
+                switch (indicador)
+                {
+                    case 1:
+                        Console.WriteLine("CALOR");
+                        break;
+                    case 2:
+                        Console.WriteLine("TEMPLADO");
+                        break;
+                    case 3:
+                        Console.WriteLine("FRÍO");
+                        break;
+                    case 4:
+                        Console.WriteLine("FUERA DE ALCANCE");
+                        break;
+                    default:
+                        Console.WriteLine("ERROR");
+                        break;
+                }
+                Console.ReadLine();
+            }
+
+            //ejercicio 19
+
+
+            else if (numEj == 29)
+            {//ejercicio 20
+                int numero;
+                Console.WriteLine("Introduzca el número:");
+                numero = int.Parse(Console.ReadLine());
+                Console.Clear();
+                if (numero < 10)
+                {
+                    Console.WriteLine("El número tiene 1 cifra.");
+                    Console.ReadLine();
+                }
+                else if (numero < 100)
+                {
+                    Console.WriteLine("El número tiene 2 cifras.");
+                    Console.ReadLine();
+                }
+                else if (numero < 1000)
+                {
+                    Console.WriteLine("El número tiene 3 cifras.");
+                    Console.ReadLine();
+                }
+                else if (numero < 10000)
+                {
+                    Console.WriteLine("El número tiene 4 cifras.");
+                    Console.ReadLine();
+                }
+                else if (numero < 100000)
+                {
+                    Console.WriteLine("El número tiene 5 cifras.");
+                    Console.ReadLine();
+                }
+                else if (numero < 1000000)
+                {
+                    Console.WriteLine("El número tiene 6 cifras.");
+                    Console.ReadLine();
+                }
+            }
         }
     }
 }
