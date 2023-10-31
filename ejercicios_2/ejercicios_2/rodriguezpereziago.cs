@@ -629,9 +629,6 @@ namespace ejercicios_2
                     Console.Write(", " + z);
                 }
                 Console.ReadLine();
-
-                //ejercicio 21
-
             }
         }
     }
