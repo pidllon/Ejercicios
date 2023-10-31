@@ -506,10 +506,41 @@ namespace ejercicios_2
                 Console.ReadLine();
             }
 
-            
+
+            else if (numEj == 19)
+            {//ejercicio 19
+                char color;
+                Console.WriteLine("Introduzca la letra del color:");
+                color = char.Parse(Console.ReadLine());
+                Console.Clear();
+                switch (color)
+                {
+                    case 'r':
+                        Console.WriteLine("ROJO");
+                        break;
+                    case 'R':
+                        Console.WriteLine("ROJO");
+                        break;
+                    case 'v':
+                        Console.WriteLine("VERDE");
+                        break;
+                    case 'V':
+                        Console.WriteLine("VERDE");
+                        break;
+                    case 'a':
+                        Console.WriteLine("AZUL");
+                        break;
+                    case 'A':
+                        Console.WriteLine("AZUL");
+                        break;
+                    default:
+                        Console.WriteLine("NEGRO");
+                        break;
+                }
+            }
 
 
-            else if (numEj == 29)
+            else if (numEj == 20)
             {//ejercicio 20
                 int numero;
                 Console.WriteLine("Introduzca el número:");
@@ -547,20 +578,57 @@ namespace ejercicios_2
                 }
             }
 
-            //ejercicio 19
-            char color;
-            Console.WriteLine("Introduzca la letra del color:");
-            color = char.Parse(Console.ReadLine());
-            Console.Clear();
-            switch (color)
-            {
-                case 'r':
-                    Console.WriteLine("ROJO");
-                    break;
-                case 'R':
-                    Console.WriteLine("ROJO");
-                    break;
-                case 
+
+            else if (numEj == 23)
+            {//ejercicio 23
+                float x, y, z;
+                Console.WriteLine("RECUERDA NO PONER NÚMEROS IGUALES");
+                Console.WriteLine("Introduzca el primer número:");
+                x = float.Parse(Console.ReadLine());
+                Console.Clear();
+                Console.WriteLine("Introduzca el segundo número:");
+                y = float.Parse(Console.ReadLine());
+                Console.Clear();
+                Console.WriteLine("Introduzca el tercer número:");
+                z = float.Parse(Console.ReadLine());
+                Console.Clear();
+                if(x < y && x < z)
+                {
+                    Console.Write(x);
+                }
+                else if(y < x && y < z)
+                {
+                    Console.Write(y);
+                }
+                else if(z < x && z < y)
+                {
+                    Console.Write(z);
+                }
+                if((x > y && x < z) || (x > z && x < y))
+                {
+                    Console.Write(", " + x);
+                }
+                else if((y > x && y < z) || (y > z && y < x))
+                {
+                    Console.Write(", " + y);
+                }
+                else if((z > x && z < y) || (z > y && z < x))
+                {
+                    Console.Write(", " + z);
+                }
+                if(x > y && x > z)
+                {
+                    Console.Write(", " + x);
+                }
+                else if(y > x && y > z)
+                {
+                    Console.Write(", " + y);
+                }
+                else if(z > x && z > y)
+                {
+                    Console.Write(", " + z);
+                }
+                Console.ReadLine();
             }
         }
     }
