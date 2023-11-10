@@ -8,6 +8,12 @@ namespace ejercicios_3
 {
     internal class Program
     {
+        static void writeGreen(int ejercicio)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Ejercicio :" + ejercicio);
+            Console.ForegroundColor = ConsoleColor.White;
+        }
         static void Main(string[] args)
         {
             /*int a, b;
@@ -51,7 +57,7 @@ namespace ejercicios_3
                 suma1 += n1;
             }
             Console.WriteLine(suma);
-            Console.ReadLine();*/
+            Console.ReadLine();
 
             //calcula la suma de los números impares entre n y m
             int n = 15;
@@ -65,7 +71,41 @@ namespace ejercicios_3
                 }
             }
             Console.WriteLine(suma);
-            Console.ReadLine();
+            Console.ReadLine();*/
+
+
+            //aqui empieza el boletin
+            string cont;
+            Console.WriteLine("Quieres ver los ejercicios? Introduzca si, si es asi:");
+            cont = Console.ReadLine();
+            while (cont == "SI" || cont == "si" || cont == "Si" || cont == "sI")
+            {
+                int numEj;
+                Console.WriteLine("Introduzca el número del ejercicio:");
+                numEj = int.Parse(Console.ReadLine());
+                switch (numEj)
+                {
+                    case 5:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        Console.WriteLine("Números del 320 al 160 de 20 en 20:");
+                        int i = 320;
+                        while (i >= 160)
+                        {
+                            Console.WriteLine(i + " ");
+                            i = i - 20;
+                        }
+                        break;
+                    case 6:
+
+                        break;
+                    default:
+                        Console.WriteLine("Este ejercicio no existe en este boletín.");
+                        break;
+                }
+                Console.WriteLine("Quieres continuar, introduzca si para ello, si no quiere continuar pulse enter:");
+                cont = Console.ReadLine();
+            }
         }
     }
 }
