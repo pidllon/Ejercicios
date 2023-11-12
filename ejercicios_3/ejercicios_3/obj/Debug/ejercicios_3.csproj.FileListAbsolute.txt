@@ -6,3 +6,10 @@ C:\Users\Alumno\Documents\GitHub\Ejercicios\ejercicios_3\ejercicios_3\obj\Debug\
 C:\Users\Alumno\Documents\GitHub\Ejercicios\ejercicios_3\ejercicios_3\obj\Debug\ejercicios_3.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\Ejercicios\ejercicios_3\ejercicios_3\obj\Debug\ejercicios_3.exe
 C:\Users\Alumno\Documents\GitHub\Ejercicios\ejercicios_3\ejercicios_3\obj\Debug\ejercicios_3.pdb
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_3\ejercicios_3\bin\Debug\ejercicios_3.exe.config
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_3\ejercicios_3\bin\Debug\ejercicios_3.exe
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_3\ejercicios_3\bin\Debug\ejercicios_3.pdb
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_3\ejercicios_3\obj\Debug\ejercicios_3.csproj.AssemblyReference.cache
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_3\ejercicios_3\obj\Debug\ejercicios_3.csproj.CoreCompileInputs.cache
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_3\ejercicios_3\obj\Debug\ejercicios_3.exe
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\ejercicios_3\ejercicios_3\obj\Debug\ejercicios_3.pdb

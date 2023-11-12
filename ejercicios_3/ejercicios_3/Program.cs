@@ -92,11 +92,43 @@ namespace ejercicios_3
                         int i = 320;
                         while (i >= 160)
                         {
-                            Console.WriteLine(i + " ");
+                            Console.Write(i + " ");
                             i = i - 20;
                         }
                         break;
                     case 6:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        int numeros = 0;
+                        for (int a = numeros; a <= 100; a += 1)
+                        {
+                            if(a % 5 == 0 || a % 7 == 0)
+                            {
+                                Console.Write(a + " ");
+                            }
+                        }
+                        Console.ReadLine();
+                        break;
+                    case 7:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        int mult;
+                        Console.WriteLine("Introduzca el número:");
+                        mult = int.Parse(Console.ReadLine());
+                        Console.Clear();
+                        Console.WriteLine($"{mult} x 1 = {mult * 1}");
+                        Console.WriteLine($"{mult} x 2 = {mult * 2}");
+                        Console.WriteLine($"{mult} x 3 = {mult * 3}");
+                        Console.WriteLine($"{mult} x 4 = {mult * 4}");
+                        Console.WriteLine($"{mult} x 5 = {mult * 5}");
+                        Console.WriteLine($"{mult} x 6 = {mult * 6}");
+                        Console.WriteLine($"{mult} x 7 = {mult * 7}");
+                        Console.WriteLine($"{mult} x 8 = {mult * 8}");
+                        Console.WriteLine($"{mult} x 9 = {mult * 9}");
+                        Console.WriteLine($"{mult} x 10 = {mult * 10}");
+                        Console.ReadLine();
+                        break;
+                    case 8:
 
                         break;
                     default:
