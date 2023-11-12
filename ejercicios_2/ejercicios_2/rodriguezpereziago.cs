@@ -32,7 +32,7 @@ namespace ejercicios_2
                 Console.WriteLine("Introduzca la 3ª nota:");
                 nota3 = float.Parse(Console.ReadLine());
                 Console.Clear();
-                media = (nota1 + nota2 + nota3) / 3;
+                media = (nota1 + nota2 + nota3) / 3; 
                 if (media > 5)
                 {
                     Console.WriteLine("Alumno aprobado");
