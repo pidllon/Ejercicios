@@ -129,7 +129,99 @@ namespace ejercicios_3
                         Console.ReadLine();
                         break;
                     case 8:
-
+                        Console.Clear();
+                        writeGreen(numEj);
+                        float num;
+                        Console.WriteLine("Introduzca el número:");
+                        num = float.Parse(Console.ReadLine());
+                        Console.Clear();
+                        for(float b = num; b <= (num + 5); b += 1)
+                        {
+                            Console.WriteLine($"Número: {b}     Cuadrado: {Math.Pow(b , 2)}     Cubo: {Math.Pow(b , 3)}");
+                        }
+                        Console.ReadLine();
+                        break;
+                    case 9:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        Console.WriteLine("N            Raíz(n)");
+                        for(float numer = 16f; numer >= 1; numer -= 2.5f)
+                        {
+                            Console.WriteLine($"{numer}            {Math.Sqrt(numer)}");
+                        }
+                        Console.ReadLine();
+                        break;
+                    case 10:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        float m;
+                        Console.WriteLine("Introduzca el número:");
+                        m = float.Parse(Console.ReadLine());
+                        Console.Clear();
+                        while(m < 0)
+                        {
+                            Console.WriteLine("Itroduzca el número:");
+                            m = float.Parse(Console.ReadLine());
+                            Console.Clear();
+                        }
+                        float numeroTo = 0;
+                        for(float c = 0; c <= (m); c += 1)
+                        {
+                            numeroTo += c;
+                        }
+                        Console.WriteLine($"La suma es: {numeroTo}.");
+                        Console.ReadLine();
+                        break;
+                    case 11:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        float n;
+                        Console.WriteLine("Introduzca el número:");
+                        n = float.Parse(Console.ReadLine());
+                        Console.Clear();
+                        while(n < 0)
+                        {
+                            Console.WriteLine("Introduzca el número:");
+                            n = float.Parse(Console.ReadLine());
+                            Console.Clear();
+                        }
+                        float numeroT = 0;
+                        for(float d = 1; d <= n; d += 1)
+                        {
+                            numeroT = numeroT + (float)(1 / (Math.Pow(d, 3)));
+                        }
+                        Console.WriteLine("La suma es: " + numeroT);
+                        Console.ReadLine();
+                        break;
+                    case 12:
+                        break;
+                    case 13:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        int perfe;
+                        Console.WriteLine("Introduzca el número:");
+                        perfe = int.Parse(Console.ReadLine());
+                        Console.Clear();
+                        int NumePerf = 0;
+                        for(int e = 1; e < perfe; e += 1)
+                        {
+                            if(e % perfe == 0)
+                            {
+                                NumePerf += e;
+                            }
+                            else
+                            {
+                            }
+                        }
+                        if(NumePerf == perfe)
+                        {
+                            Console.WriteLine("El número es perfecto.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("El número no es perfecto.");
+                        }
+                        Console.ReadLine();
                         break;
                     default:
                         Console.WriteLine("Este ejercicio no existe en este boletín.");
