@@ -11,7 +11,7 @@ namespace ejercicios_3
         static void writeGreen(int ejercicio)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Ejercicio :" + ejercicio);
+            Console.WriteLine("Ejercicio : " + ejercicio);
             Console.ForegroundColor = ConsoleColor.White;
         }
         static void Main(string[] args)
@@ -155,12 +155,12 @@ namespace ejercicios_3
                         Console.Clear();
                         writeGreen(numEj);
                         float m;
-                        Console.WriteLine("Introduzca el número:");
+                        Console.WriteLine("Introduzca un número positivo:");
                         m = float.Parse(Console.ReadLine());
                         Console.Clear();
                         while(m < 0)
                         {
-                            Console.WriteLine("Itroduzca el número:");
+                            Console.WriteLine("Este es un número negativo, introduzca un número positivo:");
                             m = float.Parse(Console.ReadLine());
                             Console.Clear();
                         }
@@ -194,6 +194,20 @@ namespace ejercicios_3
                         Console.ReadLine();
                         break;
                     case 12:
+                        int diviNum;
+                        Console.WriteLine("Introduce un número positivo:");
+                        diviNum = int.Parse(Console.ReadLine());
+                        Console.Clear();
+                        do
+                        {
+                            Console.WriteLine("Este es un número negativo, introduzca un número positivo:");
+                            diviNum = int.Parse(Console.ReadLine());
+                        }
+                        while(diviNum < 0);
+                        for(int f = 1; f <= diviNum; f++)
+                        {
+
+                        }
                         break;
                     case 13:
                         Console.Clear();
