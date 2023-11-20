@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -194,6 +195,8 @@ namespace ejercicios_3
                         Console.ReadLine();
                         break;
                     case 12:
+                        Console.Clear();
+                        writeGreen(numEj);
                         int diviNum;
                         Console.WriteLine("Introduce un número positivo:");
                         diviNum = int.Parse(Console.ReadLine());
@@ -202,12 +205,21 @@ namespace ejercicios_3
                         {
                             Console.WriteLine("Este es un número negativo, introduzca un número positivo:");
                             diviNum = int.Parse(Console.ReadLine());
+                            Console.Clear();
                         }
                         while(diviNum < 0);
+                        int sumaDivisores = 0;
                         for(int f = 1; f <= diviNum; f++)
                         {
-
+                            if(f % diviNum == 0)
+                            {
+                                sumaDivisores = sumaDivisores + f;
+                            }
+                            else
+                            { }
                         }
+                        Console.WriteLine("La suma de sus divisores es: " + sumaDivisores);
+                        Console.ReadLine();
                         break;
                     case 13:
                         Console.Clear();
@@ -235,6 +247,49 @@ namespace ejercicios_3
                         {
                             Console.WriteLine("El número no es perfecto.");
                         }
+                        Console.ReadLine();
+                        break;
+                    case 14:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        int n1;
+                        Console.WriteLine("Introuzca un número no negativo:");
+                        n1 = int.Parse(Console.ReadLine());
+                        Console.Clear();
+                        do
+                        {
+                            Console.WriteLine("Este número es negativo, introduzca una positivo:");
+                            n1 = int.Parse(Console.ReadLine());
+                            Console.Clear();
+                        }
+                        while(n1 <= 0);
+                        int sumaMultiplos5 = 0;
+                        for(int contador = 0; contador <= n1; contador += 1)
+                        {
+                            int múltiplos5 = 1;
+                            do
+                            {
+                                múltiplos5++;
+                            }
+                            while (múltiplos5 % 5 != 0);
+                            sumaMultiplos5 = sumaMultiplos5 + múltiplos5;
+                        }
+                        Console.WriteLine("La suma es:" + sumaMultiplos5);
+                        Console.ReadLine();
+                        break;
+                    case 15:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        int n2;
+                        long factorial = 1;
+                        Console.WriteLine("Introduzca el número para calcular su factorial:");
+                        n2 = int.Parse(Console.ReadLine());
+                        Console.Clear();
+                        for(int g = n2 - 1; g > 0; g--)
+                        {
+                            factorial = factorial * (n2 - g);
+                        }
+                        Console.WriteLine("el número factorial es: " + factorial);
                         Console.ReadLine();
                         break;
                     default:
