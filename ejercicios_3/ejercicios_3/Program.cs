@@ -292,6 +292,75 @@ namespace ejercicios_3
                         Console.WriteLine("el número factorial es: " + factorial);
                         Console.ReadLine();
                         break;
+                    case 16:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        break;
+                    case 22:
+                        Console.Clear();
+                        writeGreen(numEj);
+                        int n20;
+                        Console.WriteLine("Introduzca el número de asteriscos(recuerda siempre positivo):");
+                        n20 = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Apartado A");
+                        for(int h = n20; h >= 1; h--)
+                        {
+                            for (int contador = 1; contador <= h; contador++)
+                            {
+                                Console.Write("*");
+                            }
+                            Console.WriteLine();
+                        }
+                        Console.WriteLine("Apartado B");
+                        for(int h = 1; h <= n20; h++)
+                        {
+                            for(int contador1 = 1; contador1 <= h; contador1++)
+                            {
+                                Console.Write("*");
+                            }
+                            Console.WriteLine();
+                        }
+                        Console.WriteLine("Apartado C");
+                        for (int h = 1; h <= n20; h++)
+                        {
+                            for (int contador1 = 1; contador1 <= h; contador1++)
+                            {
+                                Console.Write("*");
+                            }
+                            Console.WriteLine();
+                        }
+                        for (int h = n20; h >= 1; h--)
+                        {
+                            for (int contador = 1; contador <= h; contador++)
+                            {
+                                Console.Write("*");
+                            }
+                            Console.WriteLine();
+                        }
+                        Console.WriteLine("Apartado D");
+                        for(int h = n20; h >= 1; h--)
+                        {
+                            int num22 = 1;
+                            for(int contador2 = 1; contador2 <= h; contador2++)
+                            {
+                                Console.Write(num22 + " ");
+                                num22++;
+                            }
+                            Console.WriteLine();
+                        }
+                        Console.WriteLine("Apartado E");
+                        int num221 = 1;
+                        for (int h = n20; h >= 1; h--)
+                        {
+                            for (int contador2 = 1; contador2 <= h; contador2++)
+                            {
+                                Console.Write(num221 + " ");
+                            }
+                            num221++;
+                            Console.WriteLine();
+                        }
+                        Console.ReadLine();
+                        break;
                     default:
                         Console.WriteLine("Este ejercicio no existe en este boletín.");
                         break;
