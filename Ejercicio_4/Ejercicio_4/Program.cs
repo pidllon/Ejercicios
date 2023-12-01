@@ -67,7 +67,6 @@ namespace Ejercicio_4
                     valoresInt[(n - 1)] = int.Parse(Console.ReadLine());
                     Console.WriteLine("Primer valor:" + valoresInt[0] + "   Último valor:" + valoresInt[(n - 1)]);
                     Console.ReadLine();
-
                 }
                 else if (numEj == 8)
                 {
@@ -119,6 +118,35 @@ namespace Ejercicio_4
                         }
                     }
                     Console.ReadLine();
+                }
+                else if(numEj == 16)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Ejercicio " + numEj);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    int n;
+                    Console.WriteLine("Introduzca el número de valores a almacenar:");
+                    n = int.Parse(Console.ReadLine());
+                    int[] ej16 = new int[n];
+                    int contador1 = 0;
+                    Random generador = new Random();
+                    for(int contador = 0; contador < n; contador++)
+                    {
+                        int num = generador.Next(-5, 5);
+                        ej16[contador] = num;
+                    }
+                    for(int contador2 = 0; contador2 < n; contador2++)
+                    {
+                        if(ej16[contador2] < 0)
+                        {
+                            contador1++;
+                        }
+                    }
+                    Console.WriteLine("Números negativos: " + contador1);
+                }
+                else if(numEj == 18)
+                {
+
                 }
                 Console.WriteLine("Quieres volver a ver los ejercicios, introduzca si para ello, si no pulse enter:");
                 si = Console.ReadLine();
