@@ -146,7 +146,6 @@ namespace Ejercicio_4
                 }
                 else if(numEj == 18)
                 {
-
                 }
                 Console.WriteLine("Quieres volver a ver los ejercicios, introduzca si para ello, si no pulse enter:");
                 si = Console.ReadLine();
