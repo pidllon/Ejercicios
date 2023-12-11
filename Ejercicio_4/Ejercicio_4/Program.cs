@@ -144,8 +144,136 @@ namespace Ejercicio_4
                     }
                     Console.WriteLine("Números negativos: " + contador1);
                 }
-                else if(numEj == 18)
+                else if(numEj == 14)
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Ejercicio " + numEj);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    int[] ej14 = new int[10];
+                    Random generador14 = new Random();
+                    for(int i = 0; i < 10; i++)
+                    {
+                        int numAleatorio = generador14.Next(0, 11);
+                        ej14[i] = numAleatorio;
+                    }
+                    int suma = 0;
+                    for(int a = 0; a < ej14.Length; a++)
+                    {
+                        suma = suma + (int)(Math.Pow(ej14[a], 2));
+                    }
+                    Console.WriteLine("Esta es la suma de los cuadrados de los valores del array: " + suma);
+                    Console.ReadLine();
+                }
+                else if(numEj == 15)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Ejercicio " + numEj);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    int[] ej15 = new int[10];
+                    Random generador15 = new Random();
+                    for(int i = 0; i < 10; i++)
+                    {
+                        int num15 = generador15.Next(-5, 6);
+                        ej15[i] = num15;
+                    }
+                    int suma15 = 0;
+                    for(int a = 0; a < ej15.Length; a++)
+                    {
+                        if (ej15[a] >= 0)
+                        {
+                            suma15 = suma15 + ej15[a];
+                        }
+                    }
+                    Console.WriteLine("La suma de los valores no negativos es: " + suma15);
+                    Console.ReadLine();
+                }
+                else if(numEj == 17)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Ejercicio " + numEj);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    int[] ej17 = new int[20];
+                    Random generador17 = new Random();
+                    for(int i = 0; i < 20; i++)
+                    {
+                        int num17 = generador17.Next(0, 20);
+                        ej17[i] = num17;
+                    }
+                    int contador17 = 0;
+                    int contador171 = 0;
+                    int porcentajeImpares;
+                    for(int a = 0; a < ej17.Length; a++)
+                    {
+                        contador171++;
+                        if (ej17[a] % 2 != 0)
+                        {
+                            contador17++;
+                        }
+                    }
+                    porcentajeImpares = (contador17 * 100) / contador171;
+                    Console.WriteLine("El porcentaje de números impares es: " + porcentajeImpares + "%");
+                    Console.ReadLine();
+                }
+                else if(numEj == 26)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Ejercicio " + numEj);
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("Introduzca el número de valores del 1º array:");
+                    int num26 = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Introduzca el número de valores del 2º array:");
+                    int num261 = int.Parse(Console.ReadLine());
+                    int[] ej26 = new int[num26];
+                    int[] ej261 = new int[num261];
+                    int contador = 0;
+                    int contador1 = 0;
+                    for(int i = 0; i < ej26.Length; i++)
+                    {
+                        Console.Clear();
+                        contador++;
+                        Console.WriteLine("1º array:");
+                        Console.WriteLine("Introduzca el valor: " + i);
+                        int num262 = int.Parse(Console.ReadLine());
+                        ej26[i] = num262;
+                    }
+                    for(int a = 0; a < ej261.Length; a++)
+                    {
+                        Console.Clear();
+                        contador1++;
+                        Console.WriteLine("2º array:");
+                        Console.WriteLine("Introduzca el valor: " + a);
+                        int num263 = int.Parse(Console.ReadLine());
+                        ej261[a] = num263;
+                    }
+                    bool comparador = false;
+                    if(contador == contador1)
+                    {
+                        for(int i = 0; i < ej261.Length; i++)
+                        {
+                            if (ej26[i] != ej261[i])
+                            {
+                                comparador = false;
+                                break;
+                            }
+                            else
+                            {
+                                comparador = true;
+                            }
+                        }
+                        if(comparador == true)
+                        {
+                            Console.WriteLine("Son iguales.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Son diferentes.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Son diferentes.");
+                    }
+                    Console.ReadLine();
                 }
                 Console.WriteLine("Quieres volver a ver los ejercicios, introduzca si para ello, si no pulse enter:");
                 si = Console.ReadLine();
