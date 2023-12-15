@@ -1,0 +1,11 @@
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\bin\Debug\Tema9_apps_graficas.exe.config
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\bin\Debug\Tema9_apps_graficas.exe
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\bin\Debug\Tema9_apps_graficas.pdb
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\obj\Debug\Tema9_apps_graficas.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\obj\Debug\Tema9_apps_graficas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\obj\Debug\Tema9_apps_graficas.Form1.resources
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\obj\Debug\Tema9_apps_graficas.Properties.Resources.resources
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\obj\Debug\Tema9_apps_graficas.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\obj\Debug\Tema9_apps_graficas.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\obj\Debug\Tema9_apps_graficas.exe
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Tema9_apps_graficas\Tema9_apps_graficas\obj\Debug\Tema9_apps_graficas.pdb
