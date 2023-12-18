@@ -275,6 +275,11 @@ namespace Ejercicio_4
                     }
                     Console.ReadLine();
                 }
+                //ejercicios a entregar 31 al 36 
+                else if(numEj == 31)
+                {
+
+                }
                 Console.WriteLine("Quieres volver a ver los ejercicios, introduzca si para ello, si no pulse enter:");
                 si = Console.ReadLine();
             }
