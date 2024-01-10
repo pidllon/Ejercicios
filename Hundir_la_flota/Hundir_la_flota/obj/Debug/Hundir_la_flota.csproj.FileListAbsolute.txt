@@ -1,0 +1,8 @@
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\bin\Debug\Hundir_la_flota.exe.config
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\bin\Debug\Hundir_la_flota.exe
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\bin\Debug\Hundir_la_flota.pdb
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.exe
+C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.pdb

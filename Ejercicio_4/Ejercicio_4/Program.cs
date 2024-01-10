@@ -46,7 +46,7 @@ namespace Ejercicio_4
                 Console.WriteLine("INTRODUZCA EL NÚMERO DEL EJERCICIO:");
                 numEj = int.Parse(Console.ReadLine());
                 Console.Clear();
-                while (numEj < 7 || numEj > 43)
+                while (numEj < 7 || numEj > 59)
                 {
                     Console.WriteLine("El ejercicio introducido no existe en este boletín, por favor vuelva a introducir otro:");
                     numEj = int.Parse(Console.ReadLine());
@@ -275,8 +275,7 @@ namespace Ejercicio_4
                     }
                     Console.ReadLine();
                 }
-                //ejercicios a entregar 31 al 36 
-                else if(numEj == 31)
+                else if(numEj == 59)
                 {
 
                 }
