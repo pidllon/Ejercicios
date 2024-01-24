@@ -54,7 +54,8 @@ namespace ClaseSasha
              * [nombre variable] = console.readline(); (esto si es de tipo string la variable)
              * [nombre variable] = [tipo de valor].parse(console.readline()); (esto si la variable no es string)
              */
-
+            Console.Clear();
+            // Console.Clear(); es un metodo muy util para limpiar la consola y que tener todo más limpio y ordenado
         }
     }
 }
