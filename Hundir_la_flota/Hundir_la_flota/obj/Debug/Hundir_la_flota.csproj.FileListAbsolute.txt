@@ -6,3 +6,10 @@ C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\
 C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.exe
 C:\Users\Alumno\Documents\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.pdb
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\bin\Debug\Hundir_la_flota.exe.config
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\bin\Debug\Hundir_la_flota.exe
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\bin\Debug\Hundir_la_flota.pdb
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.csproj.AssemblyReference.cache
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.csproj.CoreCompileInputs.cache
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.exe
+C:\Users\Iago\OneDrive\Documentos\GitHub\Ejercicios\Hundir_la_flota\Hundir_la_flota\obj\Debug\Hundir_la_flota.pdb
