@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletínMatrices2D", "BoletínMatrices2D\BoletínMatrices2D.csproj", "{FFA676A4-2E6B-4264-9D2E-ADB69DC212D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFA676A4-2E6B-4264-9D2E-ADB69DC212D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA676A4-2E6B-4264-9D2E-ADB69DC212D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA676A4-2E6B-4264-9D2E-ADB69DC212D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA676A4-2E6B-4264-9D2E-ADB69DC212D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42ECF8B4-A342-4DCE-93BB-69E93D14008F}
+	EndGlobalSection
+EndGlobal

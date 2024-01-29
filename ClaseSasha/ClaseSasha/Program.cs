@@ -56,6 +56,32 @@ namespace ClaseSasha
              */
             Console.Clear();
             // Console.Clear(); es un metodo muy util para limpiar la consola y que tener todo más limpio y ordenado
+            float x = 4;
+            int y = (int)x;
+            //Arriba le decimos que la variables que estamos introduciendo va a ser int, el programa te de error porque
+            //cree que va a dar overfload.
+            float b = x * 4.60f;
+            //los números con dos decimales que pongamos como arriba nos los van a poner como double por lo que si lo
+            //quieres meter en un float sin que te de error debes ponerle una f al final del número.
+
+
+            //Libreria Math:
+            Console.Clear();
+            int aa;
+            int a = 9;
+            aa = (int)Math.Sqrt(a);
+            Console.WriteLine(aa);
+            //Este sirve para hacer la raíz cuadrada del valor que le introduzcas entre parentesis
+            //sintaxis: Math.Sqrt({valor que le quieras introducir})
+            //aviso arriba en la sintaxis los {} no cuentan es solo para indicar que hay va algo
+            // Math.Sqrt()
+            int aaa;
+            aaa = (int)Math.Pow(a, aa);
+            Console.WriteLine(aaa);
+            Console.ReadLine();
+            //sirve para elevar un número a otro número
+            //sintaxis Math.Pow({número}, {número al que se eleva})
+
         }
     }
 }
