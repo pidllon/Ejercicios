@@ -1,8 +1,0 @@
-C:\Users\Alumno\Documents\GitHub\Ejercicios\ClaseSasha\ClaseSasha\bin\Debug\ClaseSasha.exe.config
-C:\Users\Alumno\Documents\GitHub\Ejercicios\ClaseSasha\ClaseSasha\bin\Debug\ClaseSasha.exe
-C:\Users\Alumno\Documents\GitHub\Ejercicios\ClaseSasha\ClaseSasha\bin\Debug\ClaseSasha.pdb
-C:\Users\Alumno\Documents\GitHub\Ejercicios\ClaseSasha\ClaseSasha\obj\Debug\ClaseSasha.csproj.AssemblyReference.cache
-C:\Users\Alumno\Documents\GitHub\Ejercicios\ClaseSasha\ClaseSasha\obj\Debug\ClaseSasha.csproj.SuggestedBindingRedirects.cache
-C:\Users\Alumno\Documents\GitHub\Ejercicios\ClaseSasha\ClaseSasha\obj\Debug\ClaseSasha.csproj.CoreCompileInputs.cache
-C:\Users\Alumno\Documents\GitHub\Ejercicios\ClaseSasha\ClaseSasha\obj\Debug\ClaseSasha.exe
-C:\Users\Alumno\Documents\GitHub\Ejercicios\ClaseSasha\ClaseSasha\obj\Debug\ClaseSasha.pdb
